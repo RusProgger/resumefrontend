@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "CaviarDreams";
+  src: url(../fonts/CaviarDreams.ttf) format("truetype"), url(../fonts/CaviarDreams.woff2) format("woff2");
+}
+@font-face {
+  font-family: "CaviarDreamsBold";
+  src: url(../fonts/CaviarDreamsBold.ttf) format("truetype"), url(../fonts/CaviarDreamsBold.woff2) format("woff2");
+}
+@font-face {
+  font-family: "CaviarDreamsBoldItalic";
+  src: url(../fonts/CaviarDreamsBoldItalic.ttf) format("truetype"), url(../fonts/CaviarDreamsBoldItalic.woff2) format("woff2");
+}
+@font-face {
+  font-family: "CaviarDreamsItalic";
+  src: url(../fonts/CaviarDreamsItalic.ttf) format("truetype"), url(../fonts/CaviarDreamsItalic.woff2) format("woff2");
+}/*# sourceMappingURL=fonts.css.map */

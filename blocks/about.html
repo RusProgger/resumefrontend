@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- normalize css -->
+    <link rel="stylesheet" href="../css/normalize.css">
+    <!-- reset css -->
+    <link rel="stylesheet" href="../css/reset.css">
+    <!-- font style -->
+    <link rel="stylesheet" href="../css/fonts.css">
+    <!-- style main -->
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Resume - Ruslan Voronenko {Front-end developer}</title>
+</head>
+<body>
+    <header class="header header-bg">
+        <div class="header__container">
+            <div class="logo header__logo">
+                <a href="../index.html" aria-label="перейти на главую страницу">
+                    <img src="../images/icons/pc.svg" alt="icons" class="header-icons">
+                    Резюме
+                    <span>Front-end developer</span>
+                </a>
+            </div>
+            <div class="header__menu">
+                <div id="menu" class="overlay">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="overlay-content">
+                      <a href="../index.html" aria-label="Перейти на главную">главная</a>
+                      <a href="../blocks/project.html" aria-label="мои проекты">проекты</a>
+                      <a href="../blocks/about.html" aria-label="обо мне" class="active">обо мне</a>
+                      <a href="#" aria-label="контакты">контакты</a>
+                    </div>
+                  </div>
+                  <span style="font-size:30px;cursor:pointer" onclick="openNav()" class="menu-burger">&#9776;</span>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+       <div class="main__about">
+            <h3 class="main__about--title title">обо мне</h3>
+
+            <!--  about info -->
+
+            <div class="about__info">
+                <div class="about__info__content">
+                    <div class="about__info__img">
+                        <img src="../images/photo.jpg" alt="author" class="about__info-pic">
+                    </div>
+                    <div class="about__info__text">
+                        <h3 class="about__info__title">Ruslan Voronenko</h3>
+                        <p class="about__info__description">Front-end Developer</p>
+                        <p class="about__info__skills">Навыки:</p>
+                        <p class="about__info__lang">c/c++, python, java, go(goland), javascript (vanilla)</p>
+                        <p class="about__info__front">html/html5, css/css3, bootsrap, materialize css, wordpress(basic)</p>
+                        <p class="about__info__desing">photoshop, figma</p>
+                    </div>
+                </div>
+            </div>
+       </div>
+    </main>
+
+
+   <footer class="footer footer-bg">
+        <div class="footer__container">
+            <div class="footer__left">
+                <p class="footer__left__contact">контакты: <a href="tel:+380635979786" title="позвонить?">380635979786</a></p>
+            </div>
+            <div class="footer__right">
+                <a href="https://t.me/java_it_uk"  target="_blank"><img src="/images/footer/telegram.svg" alt="" class="footer-images"></a>
+                <a href="skype:timkanik92" title="Написать мне?"><img src="/images/footer/skype.svg" alt="" class="footer-images"></a>
+                <a href="viber://chat?number=%2B380939703641"><img src="/images/footer/viber.svg" alt="" class="footer-images"></a>
+            </div>
+        </div>
+   </footer>
+    
+    <!-- <script src="js/snow.js"></script> -->
+    <script src="../js/menu.js"></script>
+</body>
+</html>

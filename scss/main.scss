@@ -1,0 +1,65 @@
+//  import scss files
+@import "normalize";
+@import 'components/var';
+
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    display: revert;
+}
+
+a {
+    cursor: pointer;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-size: 1rem;
+    font-family: 'CaviarDreams', sans-serif;
+    line-height: 1.5;
+    color: $colorText;
+    padding-top: 70px;
+    width: 100%;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab, #168d71, #d4622d);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+    position: relative;
+}
+
+// scroll styling
+
+body::-webkit-scrollbar {
+    width: 12px;               /* ширина всей полосы прокрутки */
+
+    &-track {
+        background: #000000;        /* цвет зоны отслеживания */
+    }
+
+    &-thumb {
+        background: linear-gradient(rgb(134, 239, 172), rgb(59, 130, 246), rgb(130, 82, 175));   /* цвет бегунка */
+        border-radius: 20px;       /* округлось бегунка */
+          /* отступ вокруг бегунка */
+    }
+}
+
+// header 
+@import 'components/animation.scss';
+@import 'components/header.scss';
+@import 'components/menu.scss';
+@import 'components/main-content.scss';
+@import 'components/project.scss';
+
+
+// Section about 
+// @import 'components/about.scss';
+
+//footer
+@import 'components/footer.scss';
+
+@import 'components/contact.scss';
